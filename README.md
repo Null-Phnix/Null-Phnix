@@ -15,17 +15,17 @@ I build autonomous AI agents and local LLM infrastructure. Everything runs on my
 
 | Project | What it does |
 |---------|-------------|
+| [claude-voice](https://github.com/Null-Phnix/claude-voice) | The missing half of Claude Code's voice mode. TTS with karaoke-style word highlighting. Fully local, zero API keys |
 | [Blackreach](https://github.com/Null-Phnix/Blackreach) | Autonomous web research agent. ReAct loop, stealth Playwright, DOM semantic walker |
 | [JobHound MCP](https://github.com/Null-Phnix/jobhound-mcp) | MCP server that scans, scores, and applies to jobs via Ashby/Greenhouse/Lever APIs |
 | [JobHound TUI](https://github.com/Null-Phnix/jobhound-tui) | Terminal dashboard for tracking job applications in real time |
+| [Apple Calendar MCP](https://github.com/Null-Phnix/apple-calendar-mcp) | MCP server for Apple Calendar integration with natural language scheduling |
 | [ghboard](https://github.com/Null-Phnix/ghboard) | GitHub activity dashboard for your terminal — heatmap, stars, notifications |
 
 ### Stack
 
-Python · Claude API · Playwright · FastMCP · Textual · ChromaDB · LlamaIndex · Go · SQLite
+Python · Claude API · Playwright · FastMCP · Textual · ChromaDB · LlamaIndex · Go · TypeScript · SQLite
 
 ### Reach me
 
 [phnix.dev](https://phnix.dev) · [contact@phnix.dev](mailto:contact@phnix.dev)
-
-
