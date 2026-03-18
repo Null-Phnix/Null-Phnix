@@ -17,7 +17,7 @@ I build autonomous AI agents and local LLM infrastructure. Everything runs on my
 |---------|-------------|
 | [claude-voice](https://github.com/Null-Phnix/claude-voice) | The missing half of Claude Code's voice mode. TTS with karaoke-style word highlighting. Fully local, zero API keys |
 | [Blackreach](https://github.com/Null-Phnix/Blackreach) | Autonomous web research agent. ReAct loop, stealth Playwright, DOM semantic walker |
-| [JobHound MCP](https://github.com/Null-Phnix/jobhound) |  scans, scores, and applies to jobs via Ashby/Greenhouse/Lever APIs |
+| [JobHound](https://github.com/Null-Phnix/jobhound) |  scans, scores, and applies to jobs via Ashby/Greenhouse/Lever APIs |
 | [Apple Calendar MCP](https://github.com/Null-Phnix/apple-calendar-mcp) | MCP server for Apple Calendar integration with natural language scheduling |
 | [ghboard](https://github.com/Null-Phnix/ghboard) | GitHub activity dashboard for your terminal — heatmap, stars, notifications |
 
