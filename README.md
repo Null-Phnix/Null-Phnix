@@ -20,8 +20,7 @@ I build autonomous AI agents and local LLM infrastructure. Everything runs on my
 | [JobHound](https://github.com/Null-Phnix/jobhound) |  scans, scores, and applies to jobs via Ashby/Greenhouse/Lever APIs |
 | [Apple Calendar MCP](https://github.com/Null-Phnix/apple-calendar-mcp) | MCP server for Apple Calendar integration with natural language scheduling |
 | [ghboard](https://github.com/Null-Phnix/ghboard) | GitHub activity dashboard for your terminal — heatmap, stars, notifications |
-| [Huginn] (https://github.com/Null-Phnix/Huginn) | Firecrawl local alternative 
-### Stack
+
 
 Python · Claude API · Playwright · FastMCP · Textual · ChromaDB · LlamaIndex · Go · TypeScript · SQLite
 
