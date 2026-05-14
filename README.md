@@ -6,7 +6,7 @@
 
 ## Why I Build
 
-I'm 25, Toronto, running this whole operation off a Linux desktop (RTX 4060, 8GB VRAM) and an M3 MacBook at work. I've got two Ollama Max Pro subscriptions giving me unlimited cloud inference on both machines — and I *still* spend half my time fighting latency and OOM errors.
+I'm 25, Toronto, running this whole operation off a Linux desktop (RTX 4060, 8GB VRAM) and an M4 MacBook at work. I've got two Ollama Max Pro subscriptions giving me unlimited cloud inference on both machines — and I *still* spend half my time fighting latency and OOM errors.
 
 My whole ecosystem exists because I got tired of depending on services that either:
 - Cost money I don't have
