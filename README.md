@@ -29,11 +29,12 @@ I care about tools that are:
 | [Claude Voice](https://github.com/Null-Phnix/claude-voice) | Local TTS voice mode for Claude Code with word highlighting and no cloud APIs | Python, terminal UX, local TTS, developer workflow |
 | [deep-video-watcher](https://github.com/Null-Phnix/deep-video-watcher) | Video perception and editing intelligence for multimodal analysis | FFmpeg, Whisper, scene detection, structured comprehension |
 
-## Recent Upstream Work
+## Open Source Work
+
+Current upstream PRs:
 
 - [MemPalace/mempalace #1569](https://github.com/MemPalace/mempalace/pull/1569): chunk-size enforcement before embedding upsert
 - [dimensionalOS/dimos #2092](https://github.com/dimensionalOS/dimos/pull/2092): AprilTag 3D detector with solvePnP TF transforms
-- [h4ckf0r0day/obscura #164](https://github.com/h4ckf0r0day/obscura/pull/164): DOM and JavaScript shim fixes for browser automation
 
 ## Current Focus
 
