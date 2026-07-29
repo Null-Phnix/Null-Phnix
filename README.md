@@ -20,7 +20,7 @@ I care about tools that are:
 
 | Project | Focus | Signal |
 | --- | --- | --- |
-| [Blackreach](https://github.com/Null-Phnix/Blackreach) | Autonomous browser and research agent with Playwright, DOM observations, memory, and resumable sessions | Python, FastAPI, Playwright, agent loops, tests |
+| [Blackreach](https://github.com/Null-Phnix/Blackreach) | Local-first browser and research agent that preserves progress and independently verifies outcomes | [27-second case study + demo](https://phnix.dev/projects/blackreach) · 3,055 tests at [`8a6a8c7`](https://github.com/Null-Phnix/Blackreach/commit/8a6a8c7bdae44a8bd52f13dd3de17556ce2704bd) |
 | [Huginn](https://github.com/Null-Phnix/Huginn) | Self-hosted scraping, crawling, and extraction API for local AI research workflows | Python, crawling, extraction, REST APIs, local-first design |
 | [Velqua](https://github.com/Null-Phnix/velqua) | Local-first memory proxy for Ollama and LLM apps with transparent context injection | Python, proxy design, LLM memory, desktop workflows |
 | [JMD](https://github.com/Null-Phnix/jmd) | Markdown format and tooling for LLM-assisted fiction, annotations, lore, revisions, TUI, and HTML export | Parser design, CLI/TUI, VS Code extension, creative tooling |
