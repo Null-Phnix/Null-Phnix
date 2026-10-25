@@ -1,65 +1,38 @@
-# NullPhnix
+# Josimar Lee (Josii)
 
-Local-first AI agent infrastructure, developer tools, and automation systems.
+I'm a self-taught developer in Toronto building AI applications, browser automation and developer tools. I focus on keeping work inspectable: preserving progress, making failures visible and checking the result.
 
-I'm Phnix, a self-taught developer in Toronto building practical AI tooling that runs close to the user: browser agents, local memory systems, multimodal analysis, MCP servers, terminal workflows, and evaluation tools.
+Alongside my retail job, I've built an inventory workflow used at work to replace a slow manual process. Feedback from the people using it shapes how I approach software.
 
-I use AI as a coding accelerator, but I review, test, debug, and own the code I ship. My strongest work sits at the intersection of Python backend engineering, local ML workflows, developer tools, and agent infrastructure.
+[Portfolio](https://phnix.dev/) · [Email](mailto:itsjosii@phnix.dev)
 
-## What I Build
+## Selected projects
 
-I care about tools that are:
+| Project | What you can inspect |
+| --- | --- |
+| [Blackreach](https://github.com/Null-Phnix/Blackreach) | Python browser and research agent with saved task state, explicit run outcomes and separate result checks. [Case study](https://phnix.dev/projects/blackreach) · [Recovery example](https://github.com/Null-Phnix/Blackreach/blob/main/examples/engine_recovery_demo.py) · [Download verification and limits](https://github.com/Null-Phnix/Blackreach/blob/main/docs/DOWNLOAD_VERIFICATION_WALKTHROUGH.md). The controlled examples use scripted decisions. |
+| [Wellspring](https://github.com/Null-Phnix/wellspring) | Educational public-data application with Python ingestion, an Angular/TypeScript interface, SQLite and an AWS deployment. Its AI query feature exposes SQL and constrains execution. [Live demo](https://d157m2vmtz6y3j.cloudfront.net/) · [Deployment evidence and limitations](https://github.com/Null-Phnix/wellspring/blob/main/docs/EVIDENCE.md). |
+| [Claude Voice](https://github.com/Null-Phnix/claude-voice) | Text-to-speech for Claude Code with local voices by default and optional cloud providers. Includes per-terminal routing, playback controls and opt-in local history. [Setup and provider guide](https://github.com/Null-Phnix/claude-voice#providers). |
+| [Huginn](https://github.com/Null-Phnix/Huginn) | Self-hosted Python/FastAPI service for web search, scraping, crawling and extraction, with durable jobs and explicit progress. [API examples](https://github.com/Null-Phnix/Huginn#api-endpoints) · [Deployment boundaries](https://github.com/Null-Phnix/Huginn#honest-boundaries). |
 
-- Local-first and privacy-aware
-- Useful from the terminal, not just a dashboard
-- Testable enough to trust during long-running agent work
-- Built for real websites, real files, and real user workflows
-- Small enough to run on personal hardware, but structured enough to grow
+## Research
 
-## Flagship Projects
+[Lethe](https://github.com/Null-Phnix/lethebench) is a research pilot for measuring how agent behavior changes over longer tasks, including goal retention, constraints, recovery and context compaction. It keeps run traces and scoring versions separate so results can be inspected and rescored. The [benchmark card](https://github.com/Null-Phnix/lethebench/blob/main/docs/BENCHMARK_CARD.md) documents its scope and limitations.
 
-| Project | Focus | Signal |
-| --- | --- | --- |
-| [Blackreach](https://github.com/Null-Phnix/Blackreach) | Local-first browser and research agent that preserves progress and independently verifies outcomes | [27-second case study + demo](https://phnix.dev/projects/blackreach) · 3,055 tests at [`8a6a8c7`](https://github.com/Null-Phnix/Blackreach/commit/8a6a8c7bdae44a8bd52f13dd3de17556ce2704bd) |
-| [Wellspring](https://github.com/Null-Phnix/wellspring) | Source-linked public-data explorer with an Angular dashboard, Python API and guarded AI-to-SQL queries | Python, TypeScript, SQLite, AWS |
-| [Huginn](https://github.com/Null-Phnix/Huginn) | Self-hosted scraping, crawling, and extraction API for local AI research workflows | Python, crawling, extraction, REST APIs, local-first design |
-| [Velqua](https://github.com/Null-Phnix/velqua) | Local-first memory proxy for Ollama and LLM apps with transparent context injection | Python, proxy design, LLM memory, desktop workflows |
-| [JMD](https://github.com/Null-Phnix/jmd) | Markdown format and tooling for LLM-assisted fiction, annotations, lore, revisions, TUI, and HTML export | Parser design, CLI/TUI, VS Code extension, creative tooling |
-| [Rigr](https://github.com/Null-Phnix/rigr) | Agent evaluation and regression testing toolkit for production AI systems | Evals, test harnesses, baselines, audit-friendly output |
-| [commit-critic](https://github.com/Null-Phnix/commit-critic) | AI-powered CLI for reviewing and generating Git commit messages from staged diffs | Python CLI, Git plumbing, LLM providers, challenge project |
-| [Claude Voice](https://github.com/Null-Phnix/claude-voice) | Local TTS voice mode for Claude Code with word highlighting and no cloud APIs | Python, terminal UX, local TTS, developer workflow |
-| [deep-video-watcher](https://github.com/Null-Phnix/deep-video-watcher) | Video perception and editing intelligence for multimodal analysis | FFmpeg, Whisper, scene detection, structured comprehension |
+## Smaller tools
 
-## Current Focus
+- [JMD](https://github.com/Null-Phnix/jmd): Markdown-based fiction tooling with structured annotations, a parser, CLI/TUI and HTML export.
+- [ghboard](https://github.com/Null-Phnix/ghboard): a Go terminal dashboard for GitHub contributions, stars and notifications.
+- [Commit Critic](https://github.com/Null-Phnix/commit-critic): a Python CLI for reviewing commit messages and suggesting messages from staged changes.
 
-- Making local agents more reliable across browser, memory, audio, and video workflows
-- Turning project prototypes into polished, documented, installable tools
-- Building evaluation loops so agent behavior can be tested instead of guessed
-- Keeping the stack practical for a MacBook plus local Linux hardware setup
+## How I work
 
-## Tech Stack
+I build with substantial help from Codex and Claude Code. I define requirements, direct development and review changes, tests and observed behavior.
 
-**Languages:** Python, TypeScript, Go, Rust  
-**AI/ML:** Ollama, OpenAI-compatible APIs, Whisper, local TTS, multimodal pipelines  
-**Backend and tooling:** FastAPI, SQLite, ChromaDB, Playwright, MCP, CLI/TUI apps  
-**Media and automation:** FFmpeg, Demucs, browser automation, GitHub tooling  
-**Engineering habits:** tests, reproducible local workflows, clean READMEs, narrow PRs
+Tools used across these projects include Python, TypeScript/JavaScript, SQL, Go, FastAPI, SQLite, Playwright, Angular, Linux, Docker, Git and AWS. I'm currently deepening my Python and Rust skills.
 
-## Open To
+## Work with me
 
-I'm looking for software engineering work where this background is useful:
+I'm open to software development, practical AI and automation, developer tooling, and technical customer roles. Based in Toronto, open to remote work and relocation for the right opportunity.
 
-- AI tooling engineer
-- Python backend engineer
-- Developer tools engineer
-- Browser automation engineer
-- Applied AI / agent infrastructure engineer
-- Local ML or automation-heavy product engineering
-
-Best fit: small teams building useful AI infrastructure, developer tools, automation systems, or local-first products.
-
-## Contact
-
-[phnix.dev](https://phnix.dev)  
-[itsjosii@phnix.dev](mailto:itsjosii@phnix.dev)  
-[GitHub](https://github.com/Null-Phnix)
+[phnix.dev](https://phnix.dev/) · [itsjosii@phnix.dev](mailto:itsjosii@phnix.dev)
